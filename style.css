@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    height: 700px;
+    max-height: 100%;
+    background-color: rgb(172, 11, 11);
+}
+p{
+    font-family:monospace;
+    font-size: medium;
+    font-weight: 900;
+}
+h1{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 50px;
+    text-decoration:underline;
+}
+h2{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 20px;
+}
+label{
+    font-family: monospace;
+    font-size: medium;
+    font-weight: 900;
+}
+#texto{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border: solid rgb(172, 11, 11) 5px;
+    display:block;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgb(172, 11, 11);
+    color: rgb(0, 0, 0);
+}
+.imagen{
+    width:900px;
+    max-width: 100%;
+    height:auto;
+    border: solid rgb(78, 67, 67) 5px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image:url(https://media.kanyidaily.com/2019/08/16080142/man-kidnapped_kidnap.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imagenNueva{
+    width:900px;
+    max-width: 100%;
+    height:auto;
+    border: solid rgb(78, 67, 67) 5px;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image:url(https://img.freepik.com/vetores-gratis/splatter-de-sangue-abstrato-na-cor-preta_5205-38.jpg?size=626&ext=jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+img{
+    width: 50px;
+    height: auto;
+
+}
+.camaraArriba{
+    display: flex;
+    justify-content:space-between;
+}
+.cuadradoIzq{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-top: solid white;
+    border-left: solid white;
+    align-items: center;
+    justify-content: center;
+}
+.cuadradoDerecha{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-top: solid white;
+    border-right: solid white;
+    color: red;
+    font-size: 25px;
+}
+.bateria{
+    width: 50px;
+    height: auto;
+}
+.live{
+    padding: 0px;
+    align-self: center;
+}
+.puntitoRojo{
+    align-self: center;
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    clip-path: circle(40%);
+    background-color: currentcolor;
+}
+
+.camaraAbajo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+.cuadradoIzqAbajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-bottom: solid white;
+    border-left: solid white;
+    color: beige;
+}
+.cuadradoDerechaAbajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-bottom: solid white;
+    border-right: solid white;
+    color: beige;
+}
